@@ -1,0 +1,74 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background: #ffedd5;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+header,
+section {
+  max-width: 300px;
+  border: 1px solid #ffedd5;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+header h1 span {
+  color: #995000;
+}
+
+header p {
+  font-size: 14px;
+  line-height: 16px;
+
+  color: rgba(0, 0, 0.7);
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: #fed7aa;
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .section1 {
+  max-width: 240px;
+}
+
+.section1 {
+  margin-bottom: 8px;
+}
+
+h1,
+h2,
+h3,
+.preço {
+  font-family: "Caveat", cursive;
+  text-transform: uppercase;
+  color: #2d2c2a;
+}
